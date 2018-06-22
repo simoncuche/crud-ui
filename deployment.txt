@@ -1,0 +1,22 @@
+Local
+*****
+ng build --prod --bh
+--> dist Ordner wird erstellt
+
+Azure
+*****
+New --> WebApp
+Configure Local Git Repo in Azure
+
+Local
+*****
+Git Repo erstellen (git init) und dist Inhalt hineinkopieren
+git add *.*
+git commit --message "asdf"
+git remote add origin
+git remote -v
+git push origin master
+
+Azure
+*****
+Deployment Option -> monitoring
